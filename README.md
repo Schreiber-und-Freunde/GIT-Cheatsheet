@@ -24,3 +24,9 @@ git submodule foreach git pull
 git submodule deinit RelativeUrlToLocalDirectory
 git rm RelativeUrlToLocalDirectory
 ```
+
+##Geänderte Dateien zwischen zwei Commits anzeigen
+```
+git diff --name-only SHA1 SHA2
+```
+Die SHA-Keys kann man sich bspw. im Github Client bei *History* anzeigen lassen
